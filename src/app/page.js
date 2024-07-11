@@ -1,7 +1,11 @@
 
-import Header from "@/pages/header/header";
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './header/header';
 export default function Home() {
   return (
-    <Header></Header>
+<div>
+<Header/>
+</div>
   );
 }

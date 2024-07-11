@@ -12,7 +12,7 @@ export default function Header() {
       </li>
       <li className="nav-item">
         <Link href="/about"  className="nav-link" passHref>
-         About Us
+         About
         </Link>
       </li>
       <li className="nav-item">
@@ -20,7 +20,11 @@ export default function Header() {
           What we do
         </Link>
       </li>
-   
+      <li className="nav-item">
+        <Link href="/blog" className="nav-link"  passHref>
+         Blog
+        </Link>
+      </li>
       <li className="nav-item">
         <Link href="/contact" className="nav-link" passHref>
          Contact Us

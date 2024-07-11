@@ -1,9 +1,9 @@
 
-import Header from "./header/header";
-export default function Home() {
+import Header from './header/header';
+export default function About() {
   return (
-   <Header></Header>
-  )
+<div>
+<Header/>
+</div>
+  );
 }
-
-

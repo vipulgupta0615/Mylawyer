@@ -1,6 +1,9 @@
-import Header from "./header/header";
-export default function Whatwedo() {
+
+import Header from './header/header';
+export default function whatwedo() {
   return (
-   <Header></Header>
-  )
+<div>
+<Header/>
+</div>
+  );
 }

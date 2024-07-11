@@ -1,6 +1,9 @@
-import Header from "./header/header";
-export default function Blog() {
+
+import Header from './header/header';
+export default function About() {
   return (
-   <Header></Header>
-  )
+<div>
+<Header/>
+</div>
+  );
 }
